@@ -12,4 +12,9 @@ public class Utils {
       return valor * percentualCalculado;
     }
 
+    public static float calculaDesconto(float valor, float percentualDesconto){
+      float percentualDesconto = 1 - (percentualDesconto);
+      return valor * percentualDesconto;
+    }
+
 }

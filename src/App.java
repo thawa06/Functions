@@ -5,7 +5,9 @@ public class App {
 
         float novoValor = Utils.calcularAcrescimo(100.00f, 10.00f);
         System.out.println(novoValor);
-    }
+
+        float valorComDesconto = Utils.calculaDesconto(100.00f, 15.00);
+        System.out.println(valorComDesconto);
 
 
 }
